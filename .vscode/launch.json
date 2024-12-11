@@ -5,7 +5,7 @@
       "name": "Next.js: debug server-side",
       "type": "node-terminal",
       "request": "launch",
-      "command": "pnpm run dev"
+      "command": "pnpm run dev",
     },
     {
       "name": "Next.js: debug client-side",
@@ -39,7 +39,7 @@
         "pattern": "- Local:.+(https?://.+)",
         "uriFormat": "%s",
         "webRoot": "${workspaceFolder}"
-      }
+      },
     }
   ]
 }
